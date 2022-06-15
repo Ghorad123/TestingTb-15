@@ -77,7 +77,7 @@ WebElement wb=driver.findElement(By.xpath("/html/body/header/section/div/div/div
                String v=day.getText();
                System.out.println(v);
                
-               if(v.equals("20"))
+               if(v.equals("21"))
                {
             	   day.click();
                }
